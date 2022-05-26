@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="common.css">
+    <title>IF, IF Else Statement Demo</title>
+</head>
+<body>
+    <h1> IF, IF Else Statement validation in javascript</h1>
+    <script>
+        // To check who is older than others
+
+        var ageOfPerson1 = 50;
+        var ageOfPerson2 = 35;
+
+        if(ageOfPerson1 >ageOfPerson2){
+            console.log(" Person1 is older than person2")
+        }
+
+        if(ageOfPerson2 > ageOfPerson1){
+            console.log("Person2 is older than person1")
+        }
+
+        var ageOfPerson3 = 45;
+        if(ageOfPerson1 > ageOfPerson2 && ageOfPerson1 > ageOfPerson3){
+            console.log("Person1 is older than person2 and person3");
+        }
+        else if(ageOfPerson2>ageOfPerson3){
+            console.log("Person2 is older than person3 and person1");
+         }
+         else{
+             console.log("Person3 is older than person1 and person2");
+        }
+
+        var perentsPermission = true;
+
+        // Statemet 2 
+        if((ageOfPerson1 <=16 && perentsPermission === false) || ageOfPerson1 >=40){
+                console.log("You're not allowed to roler coster ride");
+        }
+        else{
+            console.log("You're allowed to roler coster ride ");
+        }
+    </script>
+
+</body>
+</html>

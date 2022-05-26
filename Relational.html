@@ -34,6 +34,28 @@
             console.log('12==="12"',12==="12");
             console.log('12!="12"',12!="12");
 
+            //Logical Operator !(Not)
+
+            console.log('!true =', !true);
+            console.log('!10 =',!10);
+            // ||(OR)
+            console.log('10||ok =',10||"ok");
+            console.log('"Yes" || null =',"Yes"||null);
+            console.log('"" || 25 =', "" || 25);
+            console.log('undefined || false =', undefined || false);
+
+            var someUserInput;
+            var num = someUserInput || 0;
+            console.log(num);
+
+            // &&(AND)
+
+            console.log('10&&ok =',10&&"ok"); // true 10
+            console.log('"Yes" && null =',"Yes"&&null); // false null
+            console.log('"" && 25 =', "" && 25); // false ""
+            console.log('undefined && false =', undefined && false); // false undefined
+
+
         </script>
     </body>
 </html>
