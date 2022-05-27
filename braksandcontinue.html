@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaks and continue demo</title>
+</head>
+<script>
+    var month = prompt('Enter a number between 1 to 12 ');
+    
+    for(var days=1; days<=31;days++){
+        if(month == 4 || month == 6 || month == 9 || month == 11|| month ==12 && days==30) continue
+        console.log('Days: ',days);
+        if(month == 2 && days == 28) break;
+    }
+</script>
+<body>
+    <h1> Breaks and continue demo </h1>
+</body>
+</html>
