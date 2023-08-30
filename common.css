@@ -3,4 +3,9 @@ body {
     font-family: sans-serif;
     padding: 2em;
   }
+  .my-box {
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+  }
  
